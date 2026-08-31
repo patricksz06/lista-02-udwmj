@@ -1,0 +1,31 @@
+body {
+  background-color: #e0e0e0;
+  font-family: sans-serif;
+  padding: 50px;
+  text-align: center; /* Centraliza o botão na página */
+}
+
+.btn {
+  display: inline-block;
+
+  text-decoration: none;
+
+  /* Cores */
+  background-color: #27ae60; /* Verde */
+  color: #ffffff; /* Texto branco */
+
+  /* Espaçamento interno (padding) */
+  padding: 15px 30px;
+
+  /* Fontes e bordas */
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #1e8449; /* Verde mais escuro */
+  cursor: pointer;
+}
