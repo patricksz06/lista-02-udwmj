@@ -1,0 +1,35 @@
+/* Estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 30px;
+}
+
+/* Estrutura da div (Card de Notícia) */
+.card {
+  background-color: #ffffff; /* Cor de fundo diferente */
+  border: 1px solid #d1d5db; /* Borda fina */
+  border-radius: 8px; /* Cantos arredondados */
+  max-width: 400px; /* Largura máxima */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilização dos elementos dentro do card */
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #1e293b;
+  font-size: 20px;
+}
+
+.card small {
+  color: #64748b;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.card p {
+  margin: 0;
+  color: #334155;
+  line-height: 1.5;
+}
