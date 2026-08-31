@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: orange;
+}
+
+li {
+  color: orange;
+}
+
+img {
+  width: 300px;
+  border-radius: 15px;
+}
