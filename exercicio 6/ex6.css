@@ -1,0 +1,35 @@
+/* Configuração básica da página */
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f8fafc;
+}
+
+/* Estilo da tabela */
+table {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-collapse: collapse; /* Une as bordas das células em uma só */
+  background-color: #ffffff;
+}
+
+/* Bordas e alinhamento de texto centralizado em todas as células */
+th,
+td {
+  border: 1px solid #cbd5e1; /* Borda fina */
+  padding: 12px;
+  text-align: center; /* Alinhamento centralizado */
+}
+
+/* Cor de fundo do cabeçalho */
+th {
+  background-color: #2563eb; /* Fundo azul para o cabeçalho */
+  color: #ffffff; /* Texto branco */
+  font-weight: bold;
+}
+
+/* Cor de fundo intercalada para melhorar a leitura (opcional) */
+tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
